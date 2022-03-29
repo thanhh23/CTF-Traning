@@ -4,12 +4,15 @@
     $username = $_POST['username'];
     $password = $_POST['password'];
     $repassword = $_POST['repassword'];
+
     if($password != $repassword) {
       header("location: register.html");
     }
+
     $sql = "SELECT * FROM user WHERE username='$username'";
     $old = mysqli_query($conn, $sql);
     $password = md5($password);
+    
     if(mysqli_num_rows($old) > 0) {
       header("location: register.html");
     } else {

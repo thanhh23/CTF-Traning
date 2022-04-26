@@ -1,0 +1,8 @@
+ID       Name             Age  Room
+1  Nguyễn Thị Bích Tuệ     19  VNCERT
+2  Nguyễn Thu Hương     19  VNCERT
+3  Lương Thế Tài     19  VNCERT
+4  Lương Thế Tài     19  VNCERT
+5  Phan Minh Quân     19  VNCERT
+6  Nghiêm Thị Thuỷ     19  VNCERT
+7  Mã Quốc Phong     19  VNCERT
